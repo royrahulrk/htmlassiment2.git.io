@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+   .fm{
+    width: 60%;
+  
+   }
+   
+    
+    .div_wrp_input{
+        width: 100%;
+        padding: 15px 10px;
+        margin: 4px 4px;
+        box-sizing: border-box;
+    }
+  </style>
+  <body>
+    <h1 >Form</h1>
+    <form action="#"  class="fm">
+      <div id="wrp">
+        <div class="div_wrp">
+          <label for="html" >Name</label>
+          <input type="text" class="div_wrp_input" placeholder="Name"  required/>
+        </div>
+        <div class="div_wrp">
+          <label for="html">Email</label>
+          <input type="email" class="div_wrp_input"  placeholder="Email"  required/>
+        </div>
+        <div class="div_wrp">
+          <label for="html">Password</label>
+          <input type="password" class="div_wrp_input"  placeholder="Password"  required/>
+        </div>
+
+        <div class="div_wrp">
+          <label for="html">Age</label>
+          <input type="number" class="div_wrp_input"  placeholder="Age" required/>
+        </div>
+
+        <div class="div_wrp">
+          <label for="html">Phone Number</label>
+          <input type="tel" class="div_wrp_input"  placeholder="Phone Number"  required/>
+        </div>
+
+        <div >
+          <label for="html">Gender</label>
+          <input type="radio" name="gender" value="Male" />Male
+          <input type="radio" name="gender" value="Female" />Female
+        </div>
+        <div >
+            <label for="html">Gender</label>
+            <input type="checkbox" name="gender" value="Male" />Male
+            <input type="checkbox" name="gender" value="Female" />Female
+            <input type="checkbox" name="gender" value="Female" />both
+          </div>
+        <div>
+            <label for="html">Pass Out Year</label>
+            <select  > 
+                <option >Pass Out Year</option>
+                <option value="bike">2022</option>
+                <option value="car">2021</option>
+                <option value="scooty">2019</option>
+                <option value="scooty">2018</option>
+                <option value="scooty">2017</option>
+                <option value="scooty">2016</option>
+            </select>
+        </div>
+        <div>
+            <label for="html">College</label>
+            <input type="text" class="div_wrp_input"  placeholder="College" list="College" />
+            <datalist id="College">
+               <option value="iis">IIS (DEEMED TO BE UNIVERSITY) - [IISU], JAIPUR</option>
+                <option value="mnit">MALAVIYA NATIONAL INSTITUTE OF TECHNOLOGY - [MNIT], JAIPUR</option>
+                <option value="st">ST XAVIERS COLLEGE, JAIPUR</option>
+                <option value="am"> AMITY UNIVERSITY, JAIPUR</option>
+                <option value="kc">KHANDELWAL VAISH GIRLS INSTITUTE OF TECHNOLOGY - [KVGIT], JAIPUR</option>
+                <option value="jnit">JAIPURIA INSTITUTE OF MANAGEMENT, JAIPUR</option>
+            </datalist>
+
+        </div>
+         <div>
+          <label for="html"> Comment</label>
+          <textarea name="text" id="" cols="30" rows="10"></textarea>
+
+         </div>
+
+      </div>
+      <button type="submit"> Submit</button>
+    </form>
+  </body>
+</html>
+
+<a href="index5.html">Click to table </a>
